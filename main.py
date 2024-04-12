@@ -25,6 +25,7 @@ with open("nosleep.txt", "r") as ns:
     text = ns.read()
 
 tts.tts_to_file(text=text,
-                file_path="output.wav",
+                file_path="nosleepaudio.wav",
                 speaker_wav=speakerPath,
                 language='en')
+
